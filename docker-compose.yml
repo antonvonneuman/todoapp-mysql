@@ -10,7 +10,7 @@ services:
     environment:
       MYSQL_HOSTNAME: mysql
       MYSQL_DATABASE: todos
-      MYSQL_USERNAME: todos-user
+      MYSQL_USERNAME: root
       MYSQL_ROOT_PASSWORD: Password
     networks:
       - todo-web-application-network
